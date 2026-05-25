@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=64,<77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asycaus"
+version = "1.0.0"
+description = "Asymmetric Granger-causality suite for Python (Hatemi-J, Bahmani-Oskooee, Fang et al., Nazlioglu et al.)"
+readme = "README.md"
+# NOTE: kept as a text license to stay on Core Metadata 2.1 so older PyPI tooling
+# (twine < 6.1) accepts the upload. To switch to PEP 639, change to:
+#     license = "MIT"
+#     license-files = ["LICENSE"]
+# and pin setuptools>=77 above.
+license = { text = "MIT" }
+authors = [
+    { name = "Dr Merwan Roudane", email = "merwanroudane920@gmail.com" }
+]
+keywords = [
+    "granger causality", "asymmetric causality", "Hatemi-J", "Toda-Yamamoto",
+    "Breitung-Candelon", "spectral causality", "quantile causality",
+    "Fourier causality", "leverage bootstrap", "time-varying causality",
+    "econometrics", "time series",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+    "pandas>=1.4",
+    "matplotlib>=3.5",
+    "rich>=12.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "black", "ruff"]
+
+[project.urls]
+Homepage = "https://github.com/merwanroudane/asycaus"
+Source   = "https://github.com/merwanroudane/asycaus"
+Issues   = "https://github.com/merwanroudane/asycaus/issues"
+
+[tool.setuptools]
+packages = ["asycaus"]

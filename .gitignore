@@ -1,0 +1,55 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.tox/
+.nox/
+htmlcov/
+coverage.xml
+*.cover
+
+# Generated plots
+demo_plots/
+*.png
+*.jpg
+*.pdf
+!docs/figures/*.png
+!docs/figures/*.jpg
+!docs/figures/*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy / ruff
+.mypy_cache/
+.ruff_cache/
