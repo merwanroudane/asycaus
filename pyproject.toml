@@ -48,9 +48,11 @@ dependencies = [
 dev = ["pytest>=7", "black", "ruff"]
 
 [project.urls]
-Homepage = "https://github.com/merwanroudane/asycaus"
-Source   = "https://github.com/merwanroudane/asycaus"
-Issues   = "https://github.com/merwanroudane/asycaus/issues"
+Homepage      = "https://github.com/merwanroudane/asycaus"
+Documentation = "https://merwanroudane.github.io/asycaus/"
+Source        = "https://github.com/merwanroudane/asycaus"
+PyPI          = "https://pypi.org/project/asycaus/"
+Issues        = "https://github.com/merwanroudane/asycaus/issues"
 
 [tool.setuptools]
 packages = ["asycaus"]

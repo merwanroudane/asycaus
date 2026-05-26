@@ -27,6 +27,8 @@ asycaus.all_tests     Run every test, return unified summary
 
 Author : Dr Merwan Roudane <merwanroudane920@gmail.com>
 GitHub : https://github.com/merwanroudane/asycaus
+PyPI   : https://pypi.org/project/asycaus/
+Docs   : https://merwanroudane.github.io/asycaus/
 License: MIT
 """
 
@@ -41,6 +43,8 @@ __author__  = "Dr Merwan Roudane"
 __email__   = "merwanroudane920@gmail.com"
 __license__ = "MIT"
 __url__     = "https://github.com/merwanroudane/asycaus"
+__pypi__    = "https://pypi.org/project/asycaus/"
+__docs__    = "https://merwanroudane.github.io/asycaus/"
 
 from . import engine
 from . import tables
@@ -60,5 +64,6 @@ __all__ = [
     "StaticResult", "DynamicResult", "FourierResult", "SpectralResult",
     "QuantileResult", "EfficientResult", "AllResult",
     "engine", "tables", "plots",
-    "__version__", "__author__", "__email__", "__license__", "__url__",
+    "__version__", "__author__", "__email__", "__license__",
+    "__url__", "__pypi__", "__docs__",
 ]

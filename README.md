@@ -1,10 +1,12 @@
 # asycaus — Asymmetric Granger-Causality Suite for Python
 
+[![PyPI version](https://img.shields.io/pypi/v/asycaus.svg?logo=pypi&logoColor=white&color=3776AB)](https://pypi.org/project/asycaus/)
+[![Python versions](https://img.shields.io/pypi/pyversions/asycaus.svg?logo=python&logoColor=white)](https://pypi.org/project/asycaus/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python ≥3.9](https://img.shields.io/badge/python-%E2%89%A53.9-blue.svg)]()
 [![GitHub](https://img.shields.io/badge/GitHub-merwanroudane%2Fasycaus-181717?logo=github)](https://github.com/merwanroudane/asycaus)
+[![Docs](https://img.shields.io/badge/docs-merwanroudane.github.io-1A8FE0?logo=readthedocs&logoColor=white)](https://merwanroudane.github.io/asycaus/)
 
-**Repository:** <https://github.com/merwanroudane/asycaus>
+**Links** &nbsp;·&nbsp; 📦 [PyPI](https://pypi.org/project/asycaus/) &nbsp;·&nbsp; 💻 [GitHub](https://github.com/merwanroudane/asycaus) &nbsp;·&nbsp; 📚 [Documentation site](https://merwanroudane.github.io/asycaus/) &nbsp;·&nbsp; 📊 Stata twin on SSC: `ssc install asycaus`
 
 A complete Python implementation of asymmetric Granger-causality tests for
 bivariate time series. The package is a faithful mirror of the companion
@@ -13,7 +15,6 @@ tables (powered by [`rich`](https://github.com/Textualize/rich)) and plots
 (`matplotlib`).
 
 > **Author:** Dr Merwan Roudane &nbsp;·&nbsp; <merwanroudane920@gmail.com>
-> &nbsp;·&nbsp; [GitHub](https://github.com/merwanroudane/asycaus)
 
 ---
 

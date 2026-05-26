@@ -8,22 +8,24 @@ description: "Hatemi-J (2012, 2021, 2024), Hacker–Hatemi-J, Nazlioglu, Bahmani
 
 **Asymmetric Granger-causality suite for Python and Stata.**
 
-[![PyPI](https://img.shields.io/badge/PyPI-asycaus-3776AB?logo=pypi&logoColor=white)](https://pypi.org/project/asycaus/)
+[![PyPI version](https://img.shields.io/pypi/v/asycaus.svg?logo=pypi&logoColor=white&color=3776AB)](https://pypi.org/project/asycaus/)
+[![Python versions](https://img.shields.io/pypi/pyversions/asycaus.svg?logo=python&logoColor=white)](https://pypi.org/project/asycaus/)
 [![GitHub](https://img.shields.io/badge/GitHub-merwanroudane%2Fasycaus-181717?logo=github)](https://github.com/merwanroudane/asycaus)
 [![Stata SSC](https://img.shields.io/badge/Stata-ssc%20install%20asycaus-1A8FE0)](https://github.com/merwanroudane/asycaus)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/merwanroudane/asycaus/blob/main/LICENSE)
 
 > Author **Dr Merwan Roudane** &nbsp;·&nbsp; <merwanroudane920@gmail.com>
 >
-> Companion Stata package available on SSC: `ssc install asycaus`
+> 📦 **PyPI:** <https://pypi.org/project/asycaus/> &nbsp;·&nbsp; 💻 **GitHub:** <https://github.com/merwanroudane/asycaus> &nbsp;·&nbsp; 📊 **Stata twin:** `ssc install asycaus`
 
 ---
 
 ## 0 · Quick links
 
-- **Install (Python):** `pip install asycaus`
+- **Install (Python):** `pip install asycaus` &nbsp;→&nbsp; [pypi.org/project/asycaus](https://pypi.org/project/asycaus/)
 - **Install (Stata):**  `ssc install asycaus`
-- **Source:** <https://github.com/merwanroudane/asycaus>
+- **Source code:** <https://github.com/merwanroudane/asycaus>
+- **Issues / bug reports:** <https://github.com/merwanroudane/asycaus/issues>
 - **Executed notebook:** [full_demo.html](notebook/full_demo.html)
 - **API reference:** [SYNTAX.md](https://github.com/merwanroudane/asycaus/blob/main/docs/SYNTAX.md)
 
