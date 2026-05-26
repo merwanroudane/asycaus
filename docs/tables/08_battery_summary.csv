@@ -1,0 +1,13 @@
+Test,Shock,Statistic,p-value,Decision
+Static (Hatemi-J 2012),Pos,0.048243818771514055,0.8261478323255115,Fail to reject
+Static (Hatemi-J 2012),Neg,0.27100857373100773,0.6026560136474037,Fail to reject
+Fourier (Nazlioglu 2016),Pos,101.51573263638922,7.08980999429243e-24,Reject
+Fourier (Nazlioglu 2016),Neg,332.320745247399,3.0014507980573694e-74,Reject
+Efficient Pos only (HJ 2024),Pos,0.5543398238693682,0.4565498463825819,Fail to reject
+Efficient Neg only (HJ 2024),Neg,12.962146120114275,0.00031785260909548025,Reject
+Efficient Joint (HJ 2024),both,14.362713128171709,0.0007606352914297945,Reject
+Efficient Pos=Neg (HJ 2024),diff,10.575201362026123,0.0011461478377549031,Reject
+Spectral (BCRanjbar 2016),Pos,0.00% freq.,0.0,Fail to reject
+Spectral (BCRanjbar 2016),Neg,0.00% freq.,0.0,Fail to reject
+Quantile (Fang et al. 2026),Pos,0.00% quant.,0.0,Fail to reject
+Quantile (Fang et al. 2026),Neg,20.00% quant.,0.2,Reject at some

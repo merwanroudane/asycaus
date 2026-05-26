@@ -1,0 +1,27 @@
+title: "asycaus — Asymmetric Granger-Causality Suite"
+description: "Asymmetric Granger-causality tests for Python: Hatemi-J (2012, 2021, 2024), Hacker-Hatemi-J, Nazlioglu, Bahmani-Oskooee, Fang et al."
+
+author: Dr Merwan Roudane
+email:  merwanroudane920@gmail.com
+
+# Light, professional GitHub Pages theme.
+theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Repo metadata for the site (used by jekyll-seo-tag and the Cayman header)
+github:
+  repository_url: "https://github.com/merwanroudane/asycaus"
+  repository_nwo: "merwanroudane/asycaus"
+  owner_name: "merwanroudane"
+  owner_url:  "https://github.com/merwanroudane"
+
+# Useful links shown in the Cayman banner
+show_downloads: true
+
+# Stop Jekyll from processing files we don't need to publish
+exclude:
+  - notebook/full_demo.html.bak

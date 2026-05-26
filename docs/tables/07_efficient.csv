@@ -1,0 +1,5 @@
+hypothesis,Wald,df,asy_p,decision_5pct
+No causality via POS shocks,0.5543398238693682,1,0.4565498463825819,Fail to reject
+No causality via NEG shocks,12.962146120114275,1,0.00031785260909548025,Reject
+Joint no causality,14.362713128171709,2,0.0007606352914297945,Reject
+POS = NEG causal effects,10.575201362026123,1,0.0011461478377549031,Reject
